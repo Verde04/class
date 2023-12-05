@@ -8,9 +8,9 @@
 using namespace std;
 
 int main(){
-    int a = 1 + rand() % 10;//creando 3 variables aleatorias
-    int b = 1 + rand() % 10;
-    int c = 1 + rand() % 10;
+    int a = 1 + rand() % 20;//creando 3 variables aleatorias
+    int b = 1 + rand() % 20;
+    int c = 1 + rand() % 20;
     int arreglo[b][a][c];//iniciando un arreglo de 3 dimensiones
 
     size_t renglones = sizeof(arreglo) / sizeof(arreglo[0]); //encontrar el numero de renglones dividiendo los renglones entre el espacio que ocupa cada dato
